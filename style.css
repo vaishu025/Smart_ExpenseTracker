@@ -1,0 +1,101 @@
+:root {
+    --brand-primary: #0d6efd;
+    --brand-dark: #0b3d91;
+    --brand-light: #eef4ff;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f7fb;
+    color: #1f2937;
+}
+
+.app-navbar {
+    background: linear-gradient(90deg, var(--brand-dark), var(--brand-primary));
+}
+
+.navbar-brand {
+    font-weight: 600;
+}
+
+.nav-link.active {
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+}
+
+.card {
+    border: none;
+    border-radius: 14px;
+    box-shadow: 0 4px 14px rgba(13, 110, 253, 0.08);
+}
+
+.summary-card {
+    color: #fff;
+    border-radius: 14px;
+    padding: 1.25rem 1.5rem;
+    height: 100%;
+}
+
+.summary-card .summary-icon {
+    font-size: 1.8rem;
+    opacity: 0.85;
+}
+
+.summary-card .summary-value {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.summary-card.bg-total { background: linear-gradient(135deg, #0d6efd, #0b3d91); }
+.summary-card.bg-today { background: linear-gradient(135deg, #20c997, #0f7a5c); }
+.summary-card.bg-week { background: linear-gradient(135deg, #fd7e14, #c9590a); }
+.summary-card.bg-month { background: linear-gradient(135deg, #6610f2, #43068c); }
+
+.auth-card {
+    max-width: 460px;
+    margin: 2.5rem auto;
+    padding: 2rem;
+}
+
+.table thead {
+    background-color: var(--brand-light);
+}
+
+.badge-category {
+    background-color: var(--brand-light);
+    color: var(--brand-dark);
+    font-weight: 500;
+    padding: 0.4em 0.7em;
+    border-radius: 999px;
+}
+
+.btn-primary {
+    background-color: var(--brand-primary);
+    border-color: var(--brand-primary);
+}
+
+.btn-primary:hover {
+    background-color: var(--brand-dark);
+    border-color: var(--brand-dark);
+}
+
+.filter-pills .btn {
+    border-radius: 999px;
+}
+
+.hero-section {
+    background: linear-gradient(135deg, var(--brand-primary), var(--brand-dark));
+    color: #fff;
+    border-radius: 16px;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.chart-card {
+    padding: 1rem;
+}
+
+.predicted-badge {
+    font-size: 0.85rem;
+}
